@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<export-database>
+  <table name="categories">
+    <row name="c_row2">
+      <col name="cat_id">3</col>
+      <col name="cat_name">Food</col>
+      <col name="cat_type">1</col>
+    </row>
+    <row name="c_row2">
+      <col name="cat_id">4</col>
+      <col name="cat_name">Bills</col>
+      <col name="cat_type">1</col>
+    </row>
+  </table>
+  <table name="transactions">
+    <row name="t_row1">
+      <col name="id">4</col>
+      <col name="book">BigBook</col>
+      <col name="account">Cuenta lalala</col>
+      <col name="amount">1.356</col>
+      <col name="date">2016-04-23</col>
+    </row>
+    <row name="t_row2">
+      <col name="id">4</col>
+      <col name="book">BigBook</col>
+      <col name="account">Cuenta lalala</col>
+      <col name="amount">1.356</col>
+    </row>
+    <row name="t_row3">
+      <col name="id">4</col>
+      <col name="book">BigBook</col>
+      <col name="account">Cuenta lalala</col>
+      <col name="amount">1.356</col>
+    </row>
+  </table>
+</export-database>
