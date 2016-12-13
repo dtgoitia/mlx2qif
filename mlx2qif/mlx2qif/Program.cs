@@ -14,8 +14,8 @@ namespace mlx2qif
             //string sourceFilePath = "../../../../simpleTest.xml";
             string sourceFilePath = "../../../../aa7books.mlx";
             string accountDicPath = "../../../../accountDictionary.xml";
-            string outputFilePath = "../../../../simpleTest.qif";
-            object[] data = new object[3];
+            string outputFilePath = "../../../../output.qif";
+            object[] data = new object[4];
             List<AccountDictionaryEntry> accountDictionary;
             
             // TODO --------------------------------------------------------------- Select MLX file (user input blablaba)
@@ -31,7 +31,7 @@ namespace mlx2qif
             data = FormatData(data, accountDictionary);
             
             // Export to QIF
-            List<Transaction> transactionList = data[2] as List<Transaction>;
+            List<Transaction> transactionList = data[3] as List<Transaction>;
             ExportToQif(transactionList, outputFilePath);
 
             Console.Read();
@@ -160,7 +160,8 @@ namespace mlx2qif
         // and return a 2 element array
         // with category and transaction lists.
         {
-            object[] data = new object[3];
+            object[] data = new object[4];
+            List<Currency> currencyList = new List<Currency>();
             List<Book> bookList = new List<Book>();
             List<Account> accountList = new List<Account>();
             List<Transaction> transactionList = new List<Transaction>();
@@ -172,6 +173,11 @@ namespace mlx2qif
             // Run through all nodes at xmlEle
             foreach (XmlNode tableNod in xmlEle)
             {
+                // Currency
+                if (tableNod.Name == "table" && tableNod.Attributes["name"].Value == "currencies")
+                {
+                    currencyList = ParseCurrencies(tableNod, currencyList);
+                }
                 // Book
                 if (tableNod.Name == "table" && tableNod.Attributes["name"].Value == "accounts")
                 {
@@ -191,13 +197,57 @@ namespace mlx2qif
                 }
             }
 
-            data[0] = bookList;
-            data[1] = accountList;
-            data[2] = transactionList;
+            data[0] = currencyList;
+            data[1] = bookList;
+            data[2] = accountList;
+            data[3] = transactionList;
 
             // Report amount of account and transaction imported
-            Console.WriteLine(bookList.Count + " books, " + accountList.Count + " accounts and " + transactionList.Count + " transactions imported.\n");
+            Console.WriteLine(currencyList.Count + " currencies, " + bookList.Count + " books, " + accountList.Count + " accounts and " + transactionList.Count + " transactions imported.\n");
             return data;
+        }
+        public static List<Currency> ParseCurrencies(XmlNode nod, List<Currency> currencyList)
+        // Return a list of "Currency" objects,
+        // which is built from the list "currenyList" (supplied as argument) and
+        // the new "Currency" objects created from the currencies found
+        // in the XmlNode "nod" (supplied as argument).
+        {
+            Console.WriteLine("\"Currency\" table found. Importing accounts...");
+
+            // Run through all nodes within "accounts" table
+            int iCur = 0;
+            foreach (XmlNode rowCurNod in nod)
+            {
+                // create a Currency object
+                Currency cur = new Currency();
+
+                // Set "Currency object" attribute values
+                foreach (XmlNode colCurNod in rowCurNod)
+                {
+                    switch (colCurNod.Attributes["name"].Value)
+                    {
+                        case "cur_id":
+                            cur.currencyId = colCurNod.InnerText;
+                            break;
+
+                        case "cur_code":
+                            cur.currencyCode = colCurNod.InnerText;
+                            break;
+
+                        case "cur_name":
+                            cur.currencyName = colCurNod.InnerText;
+                            break;
+                    }
+                }
+
+                // add cat it to the category list
+                currencyList.Add(cur);
+                // Clear "cat" variable
+                cur = null;
+
+                iCur++;
+            }
+            return currencyList;
         }
         public static List<Book> ParseBooks(XmlNode nod, List<Book> bookList)
         // Return a list of "Book" objects,
@@ -205,7 +255,7 @@ namespace mlx2qif
         // the new "Book" objects created from the books found
         // in the XmlNode "nod" (supplied as argument).
         {
-            Console.WriteLine("\"Accounts\" table found. Importing accounts...");
+            Console.WriteLine("\"Book\" table found. Importing accounts...");
 
             // Run through all nodes within "accounts" table
             int iBoo = 0;
@@ -225,6 +275,10 @@ namespace mlx2qif
 
                         case "name":
                             boo.bookName = colBooNod.InnerText;
+                            break;
+
+                        case "cur_id":
+                            boo.bookCurrency = colBooNod.InnerText;
                             break;
                     }
                 }
@@ -356,9 +410,10 @@ namespace mlx2qif
             int i = 0;
 
             // Unwrap data
-            List<Book> bookList = data[0] as List<Book>;
-            List<Account> accountList = data[1] as List<Account>;
-            List<Transaction> transactionList = data[2] as List<Transaction>;
+            List<Currency> currencyList = data[0] as List<Currency>;
+            List<Book> bookList = data[1] as List<Book>;
+            List<Account> accountList = data[2] as List<Account>;
+            List<Transaction> transactionList = data[3] as List<Transaction>;
 
             // New transactionList
             List<Transaction> formatedTransactionList = new List<Transaction>();
@@ -373,10 +428,11 @@ namespace mlx2qif
             }
 
             // Wrap data and return it
-            object[] formatedData = new object[3];
-            formatedData[0] = bookList;
-            formatedData[1] = accountList;
-            formatedData[2] = formatedTransactionList;
+            object[] formatedData = new object[4];
+            formatedData[0] = currencyList;
+            formatedData[1] = bookList;
+            formatedData[2] = accountList;
+            formatedData[3] = formatedTransactionList;
             return formatedData;
         }
         public static Transaction FormatTransactions(Transaction transaction, List<Account> accountList, List<AccountDictionaryEntry> accountDictionary, List<Book> bookList)
@@ -442,17 +498,34 @@ namespace mlx2qif
         }
     }
 
+    public class Currency
+    {
+        // Attributes
+        public string currencyId    { get; set; }
+        public string currencyCode  { get; set; }
+        public string currencyName  { get; set; }
+
+        // Default contructor
+        public Currency()
+        {
+            currencyId = "unknown";
+            currencyCode = "unknown";
+            currencyName = "unknown";
+        }
+    }
     public class Book
     {
         // Attributes
         public string bookId { get; set; }
         public string bookName { get; set; }
+        public string bookCurrency { get; set; }
 
         // Default contructor
         public Book()
         {
             bookId = "unknown";
             bookName = "unknown";
+            bookCurrency = "unknown";
         }
     }
     public class Account
