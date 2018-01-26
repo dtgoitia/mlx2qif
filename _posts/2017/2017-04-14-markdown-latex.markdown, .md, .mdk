@@ -1,0 +1,83 @@
+$x= x^2$
+$
+\int_{-\infty}^\infty e^{-x^2} = \sqrt{\pi}
+$
+
+# How to write math in _atom_
+
+14 Apr 2017, David Torralba Goitia
+
+## Installation
+
+You will need to
+1. Install the latest _atom_ version from [official website](https://atom.io/).
+2. Open _atom_ and go to _Settings_ (`Ctrl + ,`) > _Install_
+3. Install `markdown-preview-enhanced` package.
+4. Disable `markdown-preview` package. This package is installed by default after installing _atom_.
+
+## How to use it
+
+### Render in real time
+
+The point of using this package is the possibility to render **in real time** _TeX_ expresions together with _markdown_. To do so:
+1. Go to _Settings_ (`Ctrl + ,`) > _Packages_
+2. Look for  `markdown-preview-enhanced` package.
+3. Click the button _Settings_.
+4. Scroll down and check the box _Live Update_:
+    - [x] Live Update
+
+## Writing
+
+We are ready to write, we need to enable the _Preview_ pane. Otherwise, you will just see your markdown code, instead of the render.
+
+You can do this in three different ways:
+* **Shortcut**: hit `Ctrl + Shift + M`.
+* **Command palette**:
+  1. Hit `Ctrl + Shift + P` to open the _Command Palette_.
+  2. Type `Markdown Preview Enhanced: Toggle` and hit `ENTER`.
+* **Right click menu**: right click over the text of a markdown file and select the option `Toggle markdown-preview-enhanced`.
+
+## Examples
+
+### Inline
+
+**Code**:
+```md
+This is an inline latex formula. $\frac[x^2][b]$ Do  youlike it?
+```
+**Output**:
+  > This is an inline latex formula. $e^{\pi i - 1} = 0$. Do you like it?
+
+### Block
+
+**Code**:
+```md
+This is an block latex formula, see below:
+$
+a_0+\cfrac{1}{a_1+\cfrac{1}{a_2+\cfrac{1}{a_3+\cdots}}}
+$
+Do you like it?
+```
+**Output**:
+  > This is an block latex formula, see below:
+  >
+  > $
+  > a_0+\cfrac{1}{a_1+\cfrac{1}{a_2+\cfrac{1}{a_3+\cdots}}}
+  > $
+  >
+  > Do you like it?
+
+## More settings
+
+### Math Rendering Option
+
+This option can be found in the package settings.
+
+Change the _Math Rendering Option_ to `MathJax`.
+
+By default the package sets `KaTeX`. However, I found this package didn't support `\cfrac` (and it sucks to use `\frac` for big fractions as they look pretty poor... ¬¬).
+
+
+## References
+
+For more information you can check the [official repository](https://atom.io/packages/markdown-preview-enhanced) of this package in GitHub. There are much more things this package can do apart from rendering _LaTeX_.

@@ -1,0 +1,143 @@
+<accountDictionary>
+  <account gnucashAccountName="CE Common Expenses:Home" moneyloverBook="DaKa" moneyloverCategory="Home"></account>
+  <account gnucashAccountName="CE Common Expenses:General shoppings" moneyloverBook="DaKa" moneyloverCategory="General shoppings"></account>
+  <account gnucashAccountName="CE Common Expenses:General shoppings:Boots" moneyloverBook="DaKa" moneyloverCategory="Boots"></account>
+  <account gnucashAccountName="CE Common Expenses:General shoppings:Co-operative" moneyloverBook="DaKa" moneyloverCategory="Co-operative"></account>
+  <account gnucashAccountName="CE Common Expenses:General shoppings:Covered Market" moneyloverBook="DaKa" moneyloverCategory="Covered Market"></account>
+  <account gnucashAccountName="CE Common Expenses:General shoppings:Iceland" moneyloverBook="DaKa" moneyloverCategory="Iceland"></account>
+  <account gnucashAccountName="CE Common Expenses:General shoppings:Lidl" moneyloverBook="DaKa" moneyloverCategory="Lidl"></account>
+  <account gnucashAccountName="CE Common Expenses:General shoppings:Polish Sklep Zubr" moneyloverBook="DaKa" moneyloverCategory="Polish Sklep Zubr"></account>
+  <account gnucashAccountName="CE Common Expenses:General shoppings:Polski Sklep Sobieski" moneyloverBook="DaKa" moneyloverCategory="Polski Sklep Sobieski"></account>
+  <account gnucashAccountName="CE Common Expenses:General shoppings:Sainsburys" moneyloverBook="DaKa" moneyloverCategory="Sainsburys"></account>
+  <account gnucashAccountName="CE Common Expenses:General shoppings:Tesco" moneyloverBook="DaKa" moneyloverCategory="Tesco"></account>
+  <account gnucashAccountName="CE Common Expenses:Eat out" moneyloverBook="DaKa" moneyloverCategory="Eat out"></account>
+  <account gnucashAccountName="CE Common Expenses:Eat out:Restaurants" moneyloverBook="DaKa" moneyloverCategory="Restaurants"></account>
+  <account gnucashAccountName="CE Common Expenses:Eat out:Some drinks" moneyloverBook="DaKa" moneyloverCategory="Some drinks"></account>
+  <account gnucashAccountName="CE Common Expenses:Eat out:Take away" moneyloverBook="DaKa" moneyloverCategory="Take away"></account>
+  <account gnucashAccountName="CE Common Expenses:Friends and lover" moneyloverBook="DaKa" moneyloverCategory="Friends and lover"></account>
+  <account gnucashAccountName="CE Common Expenses:Entertainment" moneyloverBook="DaKa" moneyloverCategory="Entertainment"></account>
+  <account gnucashAccountName="CE Common Expenses:Home" moneyloverBook="DaKa" moneyloverCategory="Home"></account>
+  <account gnucashAccountName="CE Common Expenses:Health" moneyloverBook="DaKa" moneyloverCategory="Health"></account>
+  <account gnucashAccountName="CE Common Expenses:Transport" moneyloverBook="DaKa" moneyloverCategory="Transport"></account>
+  <account gnucashAccountName="CE Common Expenses:Transport:Bus" moneyloverBook="DaKa" moneyloverCategory="Bus"></account>
+  <account gnucashAccountName="CE Common Expenses:Transport:Taxi" moneyloverBook="DaKa" moneyloverCategory="Taxi"></account>
+  <account gnucashAccountName="CE Common Expenses:Transport:Train" moneyloverBook="DaKa" moneyloverCategory="Train"></account>
+  <account gnucashAccountName="CE Common Expenses:Travelling" moneyloverBook="DaKa" moneyloverCategory="Travelling"></account>
+  <account gnucashAccountName="CE Common Expenses:Travelling:TO SORT" moneyloverBook="DaKa" moneyloverCategory="To sort"></account>
+  <account gnucashAccountName="CE Common Expenses:Travelling:Food" moneyloverBook="DaKa" moneyloverCategory="Food"></account>
+  <account gnucashAccountName="CE Common Expenses:Other" moneyloverBook="DaKa" moneyloverCategory="Otro"></account>
+
+
+  <account gnucashAccountName="Income:NOT SHORTED:DaKa wallet:Regalos" moneyloverBook="DaKa" moneyloverCategory="Regalos"></account>
+  <account gnucashAccountName="Income:NOT SHORTED:DaKa wallet:Otra entrada" moneyloverBook="DaKa" moneyloverCategory="Otra entrada"></account>
+
+
+  <account gnucashAccountName="PE Personal Expenses:General shoppings" moneyloverBook="UK" moneyloverCategory="General shoppings"></account>
+  <account gnucashAccountName="PE Personal Expenses:General shoppings:Boots" moneyloverBook="UK" moneyloverCategory="Boots"></account>
+  <account gnucashAccountName="PE Personal Expenses:General shoppings:Co-operative" moneyloverBook="UK" moneyloverCategory="Co-operative"></account>
+  <account gnucashAccountName="PE Personal Expenses:General shoppings:Covered Market" moneyloverBook="UK" moneyloverCategory="Covered Market"></account>
+  <account gnucashAccountName="PE Personal Expenses:General shoppings:Lidl" moneyloverBook="UK" moneyloverCategory="Lidl"></account>
+  <account gnucashAccountName="PE Personal Expenses:General shoppings:Polish Sklep Zubr" moneyloverBook="UK" moneyloverCategory="Polish Sklep Zubr"></account>
+  <account gnucashAccountName="PE Personal Expenses:General shoppings:Polski Sobieski Sklep" moneyloverBook="UK" moneyloverCategory="Polski Sobieski Sklep"></account>
+  <account gnucashAccountName="PE Personal Expenses:General shoppings:Sainsburys" moneyloverBook="UK" moneyloverCategory="Sainsburys"></account>
+  <account gnucashAccountName="PE Personal Expenses:General shoppings:Tesco" moneyloverBook="UK" moneyloverCategory="Tesco"></account>
+  <account gnucashAccountName="PE Personal Expenses:Clothes" moneyloverBook="UK" moneyloverCategory="Clothes"></account>
+  <account gnucashAccountName="PE Personal Expenses:Clothes:Sport clothes" moneyloverBook="UK" moneyloverCategory="Sport clothes"></account>
+  <account gnucashAccountName="PE Personal Expenses:Clothes:Shoes" moneyloverBook="UK" moneyloverCategory="Shoes"></account>
+  <account gnucashAccountName="PE Personal Expenses:Investment" moneyloverBook="UK" moneyloverCategory="Investment"></account>
+  <account gnucashAccountName="PE Personal Expenses:Health" moneyloverBook="UK" moneyloverCategory="Health"></account>
+  <account gnucashAccountName="PE Personal Expenses:Health:Hairdresser" moneyloverBook="UK" moneyloverCategory="Hairdresser"></account>
+  <account gnucashAccountName="PE Personal Expenses:Health:Sport" moneyloverBook="UK" moneyloverCategory="Sport"></account>
+  <account gnucashAccountName="PE Personal Expenses:Friends and lover" moneyloverBook="UK" moneyloverCategory="Friends and lover"></account>
+  <account gnucashAccountName="PE Personal Expenses:Travelling" moneyloverBook="UK" moneyloverCategory="Travelling"></account>
+  <account gnucashAccountName="PE Personal Expenses:Travelling:Parking" moneyloverBook="UK" moneyloverCategory="Parking"></account>
+  <account gnucashAccountName="PE Personal Expenses:Travelling:Flights" moneyloverBook="UK" moneyloverCategory="Flights"></account>
+  <account gnucashAccountName="PE Personal Expenses:Travelling:Shared petrol" moneyloverBook="UK" moneyloverCategory="Shared petrol"></account>
+  <account gnucashAccountName="PE Personal Expenses:Travelling:Taxi" moneyloverBook="UK" moneyloverCategory="Taxi"></account>
+  <account gnucashAccountName="PE Personal Expenses:Technology" moneyloverBook="UK" moneyloverCategory="Technology"></account>
+  <account gnucashAccountName="PE Personal Expenses:Technology:Phone" moneyloverBook="UK" moneyloverCategory="Phone"></account>
+  <account gnucashAccountName="PE Personal Expenses:Transport" moneyloverBook="UK" moneyloverCategory="Transport"></account>
+  <account gnucashAccountName="PE Personal Expenses:Transport:Bus" moneyloverBook="UK" moneyloverCategory="Bus"></account>
+  <account gnucashAccountName="PE Personal Expenses:Transport:Car:Petrol" moneyloverBook="UK" moneyloverCategory="Petrol"></account>
+  <account gnucashAccountName="PE Personal Expenses:Transport:Taxi" moneyloverBook="UK" moneyloverCategory="Taxi"></account>
+  <account gnucashAccountName="PE Personal Expenses:Transport:Car" moneyloverBook="UK" moneyloverCategory="Car"></account>
+  <account gnucashAccountName="PE Personal Expenses:Transport:Car:Car insurance" moneyloverBook="UK" moneyloverCategory="Car insurance"></account>
+  <account gnucashAccountName="PE Personal Expenses:Transport:Car:Parking" moneyloverBook="UK" moneyloverCategory="Parking"></account>
+  <account gnucashAccountName="PE Personal Expenses:Transport:Car:Repair and maintenance" moneyloverBook="UK" moneyloverCategory="Repair and maintenance"></account>
+  <account gnucashAccountName="PE Personal Expenses:Transport:Car:Taxes" moneyloverBook="UK" moneyloverCategory="Taxes"></account>
+  <account gnucashAccountName="PE Personal Expenses:Transport:Train" moneyloverBook="UK" moneyloverCategory="Train"></account>
+  <account gnucashAccountName="PE Personal Expenses:Transport:Bike" moneyloverBook="UK" moneyloverCategory="Bike"></account>
+  <account gnucashAccountName="PE Personal Expenses:Eat out" moneyloverBook="UK" moneyloverCategory="Eat out"></account>
+  <account gnucashAccountName="PE Personal Expenses:Eat out:Restaurants" moneyloverBook="UK" moneyloverCategory="Restaurants"></account>
+  <account gnucashAccountName="PE Personal Expenses:Eat out:Some drinks" moneyloverBook="UK" moneyloverCategory="Some drinks"></account>
+  <account gnucashAccountName="PE Personal Expenses:Eat out:Take away" moneyloverBook="UK" moneyloverCategory="Take away"></account>
+  <account gnucashAccountName="PE Personal Expenses:Education" moneyloverBook="UK" moneyloverCategory="Education"></account>
+  <account gnucashAccountName="PE Personal Expenses:Entertainment" moneyloverBook="UK" moneyloverCategory="Entertainment"></account>
+  <account gnucashAccountName="PE Personal Expenses:Entertainment:Cinema" moneyloverBook="UK" moneyloverCategory="Cinema"></account>
+  <account gnucashAccountName="PE Personal Expenses:Entertainment:Concerts, disco, pubs" moneyloverBook="UK" moneyloverCategory="Concerts, disco, pubs"></account>
+  <account gnucashAccountName="PE Personal Expenses:Entertainment:Recreation" moneyloverBook="UK" moneyloverCategory="Recreation"></account>
+  <account gnucashAccountName="PE Personal Expenses:Home" moneyloverBook="UK" moneyloverCategory="Home"></account>
+  <account gnucashAccountName="PE Personal Expenses:Rent and bills:Council Taxes" moneyloverBook="UK" moneyloverCategory="Council Taxes"></account>
+  <account gnucashAccountName="PE Personal Expenses:Rent and bills:Electricity" moneyloverBook="UK" moneyloverCategory="Electricity"></account>
+  <account gnucashAccountName="PE Personal Expenses:Rent and bills:Gas" moneyloverBook="UK" moneyloverCategory="Gas"></account>
+  <account gnucashAccountName="PE Personal Expenses:Rent and bills:House common expenses" moneyloverBook="UK" moneyloverCategory="House common expenses"></account>
+  <account gnucashAccountName="PE Personal Expenses:Rent and bills:Internet" moneyloverBook="UK" moneyloverCategory="Internet"></account>
+  <account gnucashAccountName="PE Personal Expenses:Rent and bills:Rent" moneyloverBook="UK" moneyloverCategory="Rent"></account>
+  <account gnucashAccountName="PE Personal Expenses:Rent and bills:Water" moneyloverBook="UK" moneyloverCategory="Water"></account>
+  <account gnucashAccountName="PE Personal Expenses:Other" moneyloverBook="UK" moneyloverCategory="Otro"></account>
+
+  <account gnucashAccountName="Income:Salary:Byron:Cash tips" moneyloverBook="UK" moneyloverCategory="Tips"></account>
+  <account gnucashAccountName="Income:NOT SHORTED:Byron" moneyloverBook="UK" moneyloverCategory="Byron"></account>
+  <account gnucashAccountName="Income:NOT SHORTED:MJA Consulting" moneyloverBook="UK" moneyloverCategory="MJA Consulting"></account>
+  <account gnucashAccountName="Income:NOT SHORTED:UK wallet:Regalos" moneyloverBook="UK" moneyloverCategory="Regalos"></account>
+  <account gnucashAccountName="Income:NOT SHORTED:UK wallet:Otra entrada" moneyloverBook="UK" moneyloverCategory="Otra entrada"></account>
+
+  <account gnucashAccountName="MoneyLover DEBT:UK wallet:Debt Collection" moneyloverBook="UK" moneyloverCategory="Debt Collection"></account>
+  <account gnucashAccountName="MoneyLover DEBT:UK wallet:Deuda" moneyloverBook="UK" moneyloverCategory="Deuda"></account>
+  <account gnucashAccountName="MoneyLover DEBT:UK wallet:Préstamo" moneyloverBook="UK" moneyloverCategory="Préstamo"></account>
+  <account gnucashAccountName="MoneyLover DEBT:UK wallet:Repayment" moneyloverBook="UK" moneyloverCategory="Repayment"></account>
+
+  <account gnucashAccountName="Removed wallets:BIO:Eat out" moneyloverBook="BIO" moneyloverCategory="Eat out"></account>
+  <account gnucashAccountName="Removed wallets:BIO:Food and Beverage" moneyloverBook="BIO" moneyloverCategory="Food and Beverage"></account>
+  <account gnucashAccountName="Removed wallets:BIO:Repayment" moneyloverBook="BIO" moneyloverCategory="Repayment"></account>
+  <account gnucashAccountName="Removed wallets:BIO:Ropa" moneyloverBook="BIO" moneyloverCategory="Ropa"></account>
+  <account gnucashAccountName="Removed wallets:BIO:Shopping" moneyloverBook="BIO" moneyloverCategory="Shopping"></account>
+  <account gnucashAccountName="Removed wallets:BIO:Transportation" moneyloverBook="BIO" moneyloverCategory="Transportation"></account>
+  <account gnucashAccountName="Removed wallets:BIO:Others" moneyloverBook="BIO" moneyloverCategory="Otro"></account>
+  <account gnucashAccountName="Removed wallets:BIO:Friend and lover" moneyloverBook="BIO" moneyloverCategory="Friend and lover"></account>
+  <account gnucashAccountName="Removed wallets:BIO:Investment" moneyloverBook="BIO" moneyloverCategory="Investment"></account>
+  <account gnucashAccountName="Removed wallets:BIO:INCOME_Regalos" moneyloverBook="BIO" moneyloverCategory="Regalos"></account>
+  <account gnucashAccountName="Removed wallets:BIO:INCOME_Otra entrada" moneyloverBook="BIO" moneyloverCategory="Otra entrada"></account>
+  <account gnucashAccountName="Removed wallets:BIO:INCOME_Deuda" moneyloverBook="BIO" moneyloverCategory="Deuda"></account>
+  <account gnucashAccountName="Removed wallets:BIO:Travel" moneyloverBook="BIO" moneyloverCategory="Travel"></account>
+  <account gnucashAccountName="Removed wallets:BIO:Friends and lover" moneyloverBook="BIO" moneyloverCategory="Friends and lover"></account>
+
+  <account gnucashAccountName="Removed wallets:David PLN:General shoppings" moneyloverBook="David PLN" moneyloverCategory="General shoppings"></account>
+  <account gnucashAccountName="Removed wallets:David PLN:Others" moneyloverBook="David PLN" moneyloverCategory="Others"></account>
+
+  <account gnucashAccountName="Removed wallets:RHO Euro (shared expenses):Entertainment" moneyloverBook="RHO Euro (shared expenses)" moneyloverCategory="Entertainment"></account>
+  <account gnucashAccountName="Removed wallets:RHO Euro (shared expenses):Sports" moneyloverBook="RHO Euro (shared expenses)" moneyloverCategory="Sports"></account>
+  <account gnucashAccountName="Removed wallets:RHO Euro (shared expenses):Petrol" moneyloverBook="RHO Euro (shared expenses)" moneyloverCategory="Petrol"></account>
+  <account gnucashAccountName="Removed wallets:RHO Euro (shared expenses):Parking fees" moneyloverBook="RHO Euro (shared expenses)" moneyloverCategory="Parking fees"></account>
+  <account gnucashAccountName="Removed wallets:RHO Euro (shared expenses):Pharmacy" moneyloverBook="RHO Euro (shared expenses)" moneyloverCategory="Pharmacy"></account>
+  <account gnucashAccountName="Removed wallets:RHO Euro (shared expenses):Others" moneyloverBook="RHO Euro (shared expenses)" moneyloverCategory="Others"></account>
+  <account gnucashAccountName="Removed wallets:RHO Euro (shared expenses):Food and Beverage" moneyloverBook="RHO Euro (shared expenses)" moneyloverCategory="Food and Beverage"></account>
+  <account gnucashAccountName="Removed wallets:RHO Euro (shared expenses):Transportation" moneyloverBook="RHO Euro (shared expenses)" moneyloverCategory="Transportation"></account>
+  <account gnucashAccountName="Removed wallets:RHO Euro (shared expenses):Parking Fees" moneyloverBook="RHO Euro (shared expenses)" moneyloverCategory="Parking Fees"></account>
+  <account gnucashAccountName="Removed wallets:RHO Euro (shared expenses):INCOME_Award" moneyloverBook="RHO Euro (shared expenses)" moneyloverCategory="Award"></account>
+  <account gnucashAccountName="Removed wallets:RHO Euro (shared expenses):Travel" moneyloverBook="RHO Euro (shared expenses)" moneyloverCategory="Travel"></account>
+  <account gnucashAccountName="Removed wallets:RHO Euro (shared expenses):Gifts" moneyloverBook="RHO Euro (shared expenses)" moneyloverCategory="Gifts"></account>
+  <account gnucashAccountName="Removed wallets:RHO Euro (shared expenses):Gifts" moneyloverBook="RHO Euro (shared expenses)" moneyloverCategory="Gifts and donations"></account>
+
+  <account gnucashAccountName="Removed wallets:Common PLN:Friends and love" moneyloverBook="Common PLN" moneyloverCategory="Friends and love"></account>
+  <account gnucashAccountName="Removed wallets:Common PLN:Food and Beverage" moneyloverBook="Common PLN" moneyloverCategory="Food and Beverage"></account>
+  <account gnucashAccountName="Removed wallets:Common PLN:Petrol" moneyloverBook="Common PLN" moneyloverCategory="Petrol"></account>
+  <account gnucashAccountName="Removed wallets:Common PLN:Parking Fees" moneyloverBook="Common PLN" moneyloverCategory="Parking Fees"></account>
+  <account gnucashAccountName="Removed wallets:Common PLN:Personal Care" moneyloverBook="Common PLN" moneyloverCategory="Personal Care"></account>
+  <account gnucashAccountName="Removed wallets:Common PLN:Health" moneyloverBook="Common PLN" moneyloverCategory="Health"></account>
+
+  <account gnucashAccountName="Removed wallets:Karolina Euro:Accessories" moneyloverBook="Karolina Euro" moneyloverCategory="Accessories"></account>
+  <account gnucashAccountName="Removed wallets:Karolina Euro:Pharmacy" moneyloverBook="Karolina Euro" moneyloverCategory="Pharmacy"></account>
+  <account gnucashAccountName="Removed wallets:Karolina Euro:Clothing" moneyloverBook="Karolina Euro" moneyloverCategory="Clothing"></account>
+
+</accountDictionary>
